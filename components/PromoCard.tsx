@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { assetPath } from '../utils';
 
 interface PromoCardProps {
   title: string;
@@ -32,7 +33,7 @@ export default function PromoCard({
         
         <div className="relative z-10 flex flex-col items-center">
           <img 
-            src={imageSrc} 
+            src={assetPath(imageSrc)} 
             alt={title} 
             className="max-h-40 md:max-h-52 w-auto object-contain drop-shadow-[0_10px_15px_rgba(0,0,0,0.3)] group-hover:scale-110 group-hover:-translate-y-2 transition-all duration-500 ease-out pointer-events-none"
           />

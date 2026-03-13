@@ -1,4 +1,5 @@
 import React from 'react';
+import { assetPath } from '../utils';
 
 const textShadowStyle = { textShadow: '4px 4px 0px #000' };
 
@@ -21,7 +22,7 @@ export default function HeroSection() {
       
       <div className="w-56 h-56 md:w-72 md:h-72 bg-transparent flex items-center justify-center z-10 shrink-0 relative">
          <img 
-            src="/logo-drogaria.png" 
+            src={assetPath("/logo-drogaria.png")} 
             alt="Logo Barão Drogarias" 
             className="max-w-full max-h-full drop-shadow-2xl object-contain animate-pulse-slow relative z-10"
             onError={(e) => {

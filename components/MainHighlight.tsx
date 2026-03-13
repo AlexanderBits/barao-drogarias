@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { assetPath } from '../utils';
 
 interface MainHighlightProps {
   title: string;
@@ -33,7 +34,7 @@ export default function MainHighlight({
         
         <div className="relative z-10 flex items-center justify-center">
           <img 
-            src={imageSrc} 
+            src={assetPath(imageSrc)} 
             alt={title} 
             className="max-h-72 w-auto object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.5)]"
             onError={(e) => {
