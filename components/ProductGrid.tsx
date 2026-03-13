@@ -17,7 +17,7 @@ export default function ProductGrid({ mainHighlight, promoCards }: ProductGridPr
         </div>
 
         {/* Right Column: Grid of Promo Cards */}
-        <div className="lg:col-span-7 xl:col-span-8 grid grid-cols-2 sm:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 pb-24">
+        <div className="lg:col-span-7 xl:col-span-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6 md:gap-8 pb-24">
           {promoCards.map((card, idx) => (
              <div key={idx} className="flex flex-col h-full min-h-[280px]">
                {card}
