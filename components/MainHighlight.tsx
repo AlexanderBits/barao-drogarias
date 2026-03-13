@@ -75,7 +75,7 @@ export default function MainHighlight({
               >
                 {newPriceInt}
               </motion.span>
-              <div className="flex flex-col items-start mt-2">
+              <div className="flex flex-col items-start mt-4">
                 <span className="text-black font-oswald text-2xl md:text-3xl font-bold underline decoration-4 underline-offset-4 leading-none">{newPriceCents}</span>
                 <span className="text-black font-oswald text-xs font-bold mt-1">UNID</span>
               </div>

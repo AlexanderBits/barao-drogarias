@@ -12,7 +12,7 @@ export default function HeroSection() {
       <div className="absolute bottom-0 right-1/3 w-96 h-96 bg-red-500 opacity-40 rounded-full blur-[80px] pointer-events-none"></div>
 
       <div className="flex flex-col z-10 text-center md:text-left mb-8 md:mb-0 transform -rotate-2">
-        <span className="text-yellow-300 text-5xl md:text-7xl font-oswald font-black italic uppercase tracking-wider leading-none" style={textShadowStyle}>
+        <span className="text-yellow-300 text-5xl md:text-7xl font-oswald font-black italic uppercase tracking-wider leading-none mb-3" style={textShadowStyle}>
           Descontos
         </span>
         <span className="text-white text-7xl md:text-[7rem] font-oswald font-black italic uppercase leading-none tracking-tighter" style={textShadowStyle}>
