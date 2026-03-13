@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection';
 import MainHighlightCarousel from './components/MainHighlightCarousel';
 import ProductGrid from './components/ProductGrid';
 import PromoCard from './components/PromoCard';
+import SEOContent from './components/SEOContent';
 import FooterCredit from './components/FooterCredit';
 import AdminLogin from './components/AdminLogin';
 import AdminPanel from './components/AdminPanel';
@@ -44,6 +45,8 @@ const App: React.FC = () => {
             promoCards={promoCards} 
           />
         </main>
+
+        <SEOContent />
 
         <FooterCredit />
         
