@@ -81,7 +81,7 @@ export default function MainHighlight({
               </div>
             </div>
                <a 
-                 href={`https://wa.me/5599999999999?text=Olá,%20gostaria%20de%20pedir%20o%20produto:%20${encodeURIComponent(title)}%20(Oferta%20Especial)%20por%20R$${newPriceInt},${newPriceCents}`}
+                 href={`https://wa.me/5521999404847?text=Olá,%20gostaria%20de%20pedir%20o%20produto:%20${encodeURIComponent(title)}%20(Oferta%20Especial)%20por%20R$${newPriceInt},${newPriceCents}`}
                  target="_blank"
                  rel="noopener noreferrer"
                  className="flex items-center justify-center bg-green-600 hover:bg-green-700 text-white text-sm md:text-base font-bold py-1 md:py-2 px-4 rounded-full shadow-md transition-colors w-[90%] md:w-[80%] uppercase z-10"

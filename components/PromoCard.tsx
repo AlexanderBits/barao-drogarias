@@ -80,7 +80,7 @@ export default function PromoCard({
                </div>
                
                <a 
-                 href={`https://wa.me/5599999999999?text=Olá,%20gostaria%20de%20pedir%20o%20produto:%20${encodeURIComponent(title)}%20por%20R$${newPriceInt},${newPriceCents}`}
+                 href={`https://wa.me/5521999404847?text=Olá,%20gostaria%20de%20pedir%20o%20produto:%20${encodeURIComponent(title)}%20por%20R$${newPriceInt},${newPriceCents}`}
                  target="_blank"
                  rel="noopener noreferrer"
                  className="mt-auto mb-1.5 flex items-center justify-center bg-green-500 hover:bg-green-600 text-white text-[10px] md:text-[11px] font-bold py-1.5 px-3 rounded-full shadow-md transition-all hover:scale-105 active:scale-95 w-[92%]"
