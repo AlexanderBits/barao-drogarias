@@ -1,19 +1,24 @@
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="Encarte Drogaria Barão" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Encarte Digital - Drogaria Barão
 
-This contains everything you need to run your app locally.
+Este projeto contém a estrutura necessária para exibir o encarte digital da Drogaria Barão, permitindo apresentar ofertas, produtos e novidades de forma prática e organizada.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1aZxr69zSUF1ghw62RQsFUFRo1yV-NWhK
+## Visualização do Encarte
 
-## Run Locally
+O encarte pode ser acessado online através do link oficial da página.
 
-**Prerequisites:**  Node.js
+## Executar Localmente
 
+**Pré-requisitos:** Node.js instalado
 
-1. Install dependencies:
+1. Instale as dependências  
    `npm install`
-2. Run the app:
+
+2. Inicie o servidor de desenvolvimento  
    `npm run dev`
+
+Após iniciar, o encarte digital estará disponível no navegador para visualização e atualização das ofertas.
